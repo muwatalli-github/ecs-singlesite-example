@@ -4,4 +4,11 @@ resources:
   - linux-ubuntu-vm.yaml
   - web-server.yaml
   - esx-ntp-config.yaml
-
+patches:
+  - patch: |
+      - op: replace
+        path: /spec/className
+        value: best-effort-xsmall
+    target:
+      kind: VirtualMachine
+      name: linux-vm
