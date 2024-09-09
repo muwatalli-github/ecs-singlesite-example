@@ -8,7 +8,7 @@ metadata:
     vmoperator.vmware.com/image-supported-check: disable
 spec:
   className: guaranteed-small
-  imageName: https://sourceforge.net/projects/osimages/files/Linux/Ubuntu/Ubuntu%2020.04%20LTS%20Server%20x64.ova
+  imageName: sourceforge.net/projects/osimages/files/Linux/Ubuntu/Ubuntu%2020.04%20LTS%20Server%20x64.ova
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
