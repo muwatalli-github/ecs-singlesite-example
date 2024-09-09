@@ -8,7 +8,7 @@ metadata:
     vmoperator.vmware.com/image-supported-check: disable
 spec:
   className: guaranteed-small
-  imageName: drive.google.com/drive/folders/1mqbUacK41opguwbSxM4xRUwnhUhQ2vwk/Ubuntu 20.04 LTS Server x64.ova
+  imageName: packages.vmware.com/photon/4.0/GA/ova/photon-hw11-4.0-1526e30ba0.ova
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
