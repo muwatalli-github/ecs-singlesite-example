@@ -2,7 +2,7 @@
 apiVersion: vmoperator.vmware.com/v1alpha1
 kind: VirtualMachine
 metadata:
-  name: linux-vm3
+  name: linux-vm4
   namespace: default
   annotations:
     vmoperator.vmware.com/image-supported-check: disable
