@@ -8,7 +8,7 @@ metadata:
     vmoperator.vmware.com/image-supported-check: disable
 spec:
   className: guaranteed-small
-  imageName: 192.168.101.14/jammy-server-cloudimg-amd64.ova
+  imageName: https://ent.box.com/s/ntn0jbx5kv66qfizajevq8ob3tbuwt7g
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
