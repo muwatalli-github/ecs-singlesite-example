@@ -8,7 +8,7 @@ metadata:
     vmoperator.vmware.com/image-supported-check: disable
 spec:
   className: guaranteed-small
-  imageName: ent.box.com/s/ntn0jbx5kv66qfizajevq8ob3tbuwt7g
+  imageName: drive.google.com/drive/folders/1mqbUacK41opguwbSxM4xRUwnhUhQ2vwk/Ubuntu 20.04 LTS Server x64.ova
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
